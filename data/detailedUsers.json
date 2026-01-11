@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "personalInfo": {
+      "firstName": "Ahmed",
+      "lastName": "Hassan",
+      "gender": "male",
+      "dateOfBirth": "1995-08-21",
+      "age": 30,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "ahmed.hassan@example.com",
+      "phone": "+20-101-234-5678",
+      "alternatePhone": "+20-109-987-6543"
+    },
+    "address": {
+      "street": "12 Tahrir St",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11511"
+    },
+    "employment": {
+      "jobTitle": "Software Engineer",
+      "department": "IT",
+      "company": "Tech Corp",
+      "yearsOfExperience": 5,
+      "skills": ["Node.js", "Express", "MongoDB", "REST APIs"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "ahmedhassan",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2022-03-15T10:30:00Z",
+      "lastLogin": "2025-01-08T18:45:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 152,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-08T18:45:00Z"
+        },
+        {
+          "action": "UPDATE_PROFILE",
+          "date": "2025-01-02T12:10:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-08T18:46:00Z",
+      "version": 3
+    }
+  },
+  {
+    "id": 2,
+    "personalInfo": {
+      "firstName": "Fatima",
+      "lastName": "Ali",
+      "gender": "female",
+      "dateOfBirth": "1992-03-12",
+      "age": 33,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "fatima.ali@example.com",
+      "phone": "+20-102-345-6789",
+      "alternatePhone": "+20-110-876-5432"
+    },
+    "address": {
+      "street": "45 El-Haram St",
+      "city": "Giza",
+      "state": "Giza",
+      "country": "Egypt",
+      "postalCode": "12511"
+    },
+    "employment": {
+      "jobTitle": "Product Manager",
+      "department": "Product",
+      "company": "InnovateTech",
+      "yearsOfExperience": 8,
+      "skills": ["Product Strategy", "Agile", "Scrum", "User Research"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "fatimaali",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2021-05-20T14:22:00Z",
+      "lastLogin": "2025-01-10T09:30:00Z"
+    },
+    "preferences": {
+      "language": "ar",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": false
+      }
+    },
+    "activity": {
+      "loginCount": 287,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-10T09:30:00Z"
+        },
+        {
+          "action": "VIEW_DASHBOARD",
+          "date": "2025-01-10T09:31:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "admin",
+      "updatedAt": "2025-01-10T09:31:00Z",
+      "version": 5
+    }
+  },
+  {
+    "id": 3,
+    "personalInfo": {
+      "firstName": "Mohammed",
+      "lastName": "Saleh",
+      "gender": "male",
+      "dateOfBirth": "1998-11-05",
+      "age": 27,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "mohammed.saleh@example.com",
+      "phone": "+20-103-456-7890",
+      "alternatePhone": "+20-111-765-4321"
+    },
+    "address": {
+      "street": "78 Nile Corniche",
+      "city": "Alexandria",
+      "state": "Alexandria",
+      "country": "Egypt",
+      "postalCode": "21500"
+    },
+    "employment": {
+      "jobTitle": "Data Analyst",
+      "department": "Analytics",
+      "company": "DataFlow Inc",
+      "yearsOfExperience": 3,
+      "skills": ["Python", "SQL", "Tableau", "Power BI"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "mohammedsaleh",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2023-01-10T08:15:00Z",
+      "lastLogin": "2025-01-09T16:20:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 98,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-09T16:20:00Z"
+        },
+        {
+          "action": "EXPORT_REPORT",
+          "date": "2025-01-09T16:45:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-09T16:45:00Z",
+      "version": 2
+    }
+  },
+  {
+    "id": 4,
+    "personalInfo": {
+      "firstName": "Nour",
+      "lastName": "Ibrahim",
+      "gender": "female",
+      "dateOfBirth": "1996-07-18",
+      "age": 29,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "nour.ibrahim@example.com",
+      "phone": "+20-104-567-8901",
+      "alternatePhone": "+20-112-654-3210"
+    },
+    "address": {
+      "street": "23 Salah Salem Rd",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11765"
+    },
+    "employment": {
+      "jobTitle": "UX Designer",
+      "department": "Design",
+      "company": "Creative Studios",
+      "yearsOfExperience": 6,
+      "skills": ["Figma", "Adobe XD", "User Research", "Prototyping"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "nouribrahim",
+      "role": "moderator",
+      "status": "active",
+      "createdAt": "2022-08-05T11:00:00Z",
+      "lastLogin": "2025-01-11T07:15:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": false,
+        "sms": true,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 203,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-11T07:15:00Z"
+        },
+        {
+          "action": "CREATE_DESIGN",
+          "date": "2025-01-11T07:30:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "admin",
+      "updatedAt": "2025-01-11T07:30:00Z",
+      "version": 4
+    }
+  },
+  {
+    "id": 5,
+    "personalInfo": {
+      "firstName": "Omar",
+      "lastName": "Khaled",
+      "gender": "male",
+      "dateOfBirth": "1994-02-28",
+      "age": 31,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "omar.khaled@example.com",
+      "phone": "+20-105-678-9012",
+      "alternatePhone": "+20-113-543-2109"
+    },
+    "address": {
+      "street": "56 Mohandessin St",
+      "city": "Giza",
+      "state": "Giza",
+      "country": "Egypt",
+      "postalCode": "12411"
+    },
+    "employment": {
+      "jobTitle": "DevOps Engineer",
+      "department": "Infrastructure",
+      "company": "CloudSys",
+      "yearsOfExperience": 7,
+      "skills": ["Docker", "Kubernetes", "AWS", "CI/CD"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "omarkhaled",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2021-11-12T13:45:00Z",
+      "lastLogin": "2025-01-10T20:10:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 341,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-10T20:10:00Z"
+        },
+        {
+          "action": "DEPLOY_SERVICE",
+          "date": "2025-01-10T20:25:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-10T20:25:00Z",
+      "version": 6
+    }
+  },
+  {
+    "id": 6,
+    "personalInfo": {
+      "firstName": "Layla",
+      "lastName": "Mahmoud",
+      "gender": "female",
+      "dateOfBirth": "1997-09-14",
+      "age": 28,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "layla.mahmoud@example.com",
+      "phone": "+20-106-789-0123",
+      "alternatePhone": "+20-114-432-1098"
+    },
+    "address": {
+      "street": "89 Zamalek St",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11211"
+    },
+    "employment": {
+      "jobTitle": "Marketing Specialist",
+      "department": "Marketing",
+      "company": "BrandWorks",
+      "yearsOfExperience": 4,
+      "skills": ["SEO", "Content Marketing", "Social Media", "Google Analytics"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "laylamahmoud",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2022-12-01T09:20:00Z",
+      "lastLogin": "2025-01-09T14:55:00Z"
+    },
+    "preferences": {
+      "language": "ar",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": false
+      }
+    },
+    "activity": {
+      "loginCount": 124,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-09T14:55:00Z"
+        },
+        {
+          "action": "CREATE_CAMPAIGN",
+          "date": "2025-01-09T15:20:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "admin",
+      "updatedAt": "2025-01-09T15:20:00Z",
+      "version": 3
+    }
+  },
+  {
+    "id": 7,
+    "personalInfo": {
+      "firstName": "Youssef",
+      "lastName": "Farid",
+      "gender": "male",
+      "dateOfBirth": "1991-06-22",
+      "age": 34,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "youssef.farid@example.com",
+      "phone": "+20-107-890-1234",
+      "alternatePhone": "+20-115-321-0987"
+    },
+    "address": {
+      "street": "34 Nasr City Rd",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11371"
+    },
+    "employment": {
+      "jobTitle": "Senior Backend Developer",
+      "department": "Engineering",
+      "company": "TechVault",
+      "yearsOfExperience": 10,
+      "skills": ["Java", "Spring Boot", "Microservices", "PostgreSQL"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "yousseffarid",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2020-04-18T10:10:00Z",
+      "lastLogin": "2025-01-11T08:00:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 456,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-11T08:00:00Z"
+        },
+        {
+          "action": "CODE_REVIEW",
+          "date": "2025-01-11T08:30:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-11T08:30:00Z",
+      "version": 8
+    }
+  },
+  {
+    "id": 8,
+    "personalInfo": {
+      "firstName": "Mariam",
+      "lastName": "Said",
+      "gender": "female",
+      "dateOfBirth": "1999-01-30",
+      "age": 26,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "mariam.said@example.com",
+      "phone": "+20-108-901-2345",
+      "alternatePhone": "+20-116-210-9876"
+    },
+    "address": {
+      "street": "67 Heliopolis Ave",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11361"
+    },
+    "employment": {
+      "jobTitle": "Frontend Developer",
+      "department": "IT",
+      "company": "WebSolutions",
+      "yearsOfExperience": 2,
+      "skills": ["React", "TypeScript", "CSS", "HTML5"],
+      "employmentType": "Contract"
+    },
+    "account": {
+      "username": "mariamsaid",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2023-06-15T15:30:00Z",
+      "lastLogin": "2025-01-10T11:40:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": false,
+        "sms": false,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 67,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-10T11:40:00Z"
+        },
+        {
+          "action": "COMMIT_CODE",
+          "date": "2025-01-10T12:15:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-10T12:15:00Z",
+      "version": 1
+    }
+  },
+  {
+    "id": 9,
+    "personalInfo": {
+      "firstName": "Karim",
+      "lastName": "Zaki",
+      "gender": "male",
+      "dateOfBirth": "1993-12-09",
+      "age": 32,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "karim.zaki@example.com",
+      "phone": "+20-109-012-3456",
+      "alternatePhone": "+20-117-109-8765"
+    },
+    "address": {
+      "street": "101 Maadi St",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11431"
+    },
+    "employment": {
+      "jobTitle": "Sales Manager",
+      "department": "Sales",
+      "company": "SalesForce Egypt",
+      "yearsOfExperience": 9,
+      "skills": ["CRM", "Negotiation", "Lead Generation", "B2B Sales"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "karimzaki",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2021-09-22T12:00:00Z",
+      "lastLogin": "2025-01-08T17:30:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": false
+      }
+    },
+    "activity": {
+      "loginCount": 278,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-08T17:30:00Z"
+        },
+        {
+          "action": "UPDATE_LEAD",
+          "date": "2025-01-08T17:50:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "admin",
+      "updatedAt": "2025-01-08T17:50:00Z",
+      "version": 5
+    }
+  },
+  {
+    "id": 10,
+    "personalInfo": {
+      "firstName": "Sara",
+      "lastName": "Mostafa",
+      "gender": "female",
+      "dateOfBirth": "1995-04-17",
+      "age": 30,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "sara.mostafa@example.com",
+      "phone": "+20-110-123-4567",
+      "alternatePhone": "+20-118-098-7654"
+    },
+    "address": {
+      "street": "22 Dokki St",
+      "city": "Giza",
+      "state": "Giza",
+      "country": "Egypt",
+      "postalCode": "12311"
+    },
+    "employment": {
+      "jobTitle": "HR Manager",
+      "department": "Human Resources",
+      "company": "HR Solutions",
+      "yearsOfExperience": 7,
+      "skills": ["Recruitment", "Employee Relations", "HRIS", "Performance Management"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "saramostafa",
+      "role": "moderator",
+      "status": "active",
+      "createdAt": "2022-02-10T08:45:00Z",
+      "lastLogin": "2025-01-11T10:00:00Z"
+    },
+    "preferences": {
+      "language": "ar",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 195,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-11T10:00:00Z"
+        },
+        {
+          "action": "REVIEW_APPLICATION",
+          "date": "2025-01-11T10:20:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-11T10:20:00Z",
+      "version": 4
+    }
+  },
+  {
+    "id": 11,
+    "personalInfo": {
+      "firstName": "Hassan",
+      "lastName": "Abdel",
+      "gender": "male",
+      "dateOfBirth": "1990-10-03",
+      "age": 35,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "hassan.abdel@example.com",
+      "phone": "+20-111-234-5678",
+      "alternatePhone": "+20-119-987-6543"
+    },
+    "address": {
+      "street": "15 Sheraton Rd",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11361"
+    },
+    "employment": {
+      "jobTitle": "Project Manager",
+      "department": "Project Management",
+      "company": "BuildIt Co",
+      "yearsOfExperience": 12,
+      "skills": ["PMP", "Agile", "Risk Management", "Stakeholder Management"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "hassanabdel",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2020-01-05T07:00:00Z",
+      "lastLogin": "2025-01-10T15:30:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 512,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-10T15:30:00Z"
+        },
+        {
+          "action": "UPDATE_PROJECT",
+          "date": "2025-01-10T16:00:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-10T16:00:00Z",
+      "version": 9
+    }
+  },
+  {
+    "id": 12,
+    "personalInfo": {
+      "firstName": "Hana",
+      "lastName": "Nabil",
+      "gender": "female",
+      "dateOfBirth": "1998-05-26",
+      "age": 27,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "hana.nabil@example.com",
+      "phone": "+20-112-345-6789",
+      "alternatePhone": "+20-120-876-5432"
+    },
+    "address": {
+      "street": "88 October St",
+      "city": "6th of October City",
+      "state": "Giza",
+      "country": "Egypt",
+      "postalCode": "12566"
+    },
+    "employment": {
+      "jobTitle": "Graphic Designer",
+      "department": "Creative",
+      "company": "DesignHub",
+      "yearsOfExperience": 4,
+      "skills": ["Photoshop", "Illustrator", "InDesign", "Branding"],
+      "employmentType": "Part-time"
+    },
+    "account": {
+      "username": "hananabil",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2023-03-20T11:15:00Z",
+      "lastLogin": "2025-01-09T13:25:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": false,
+        "sms": true,
+        "push": false
+      }
+    },
+    "activity": {
+      "loginCount": 89,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-09T13:25:00Z"
+        },
+        {
+          "action": "UPLOAD_DESIGN",
+          "date": "2025-01-09T14:00:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "admin",
+      "updatedAt": "2025-01-09T14:00:00Z",
+      "version": 2
+    }
+  },
+  {
+    "id": 13,
+    "personalInfo": {
+      "firstName": "Tarek",
+      "lastName": "Mansour",
+      "gender": "male",
+      "dateOfBirth": "1996-08-08",
+      "age": 29,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "tarek.mansour@example.com",
+      "phone": "+20-113-456-7890",
+      "alternatePhone": "+20-121-765-4321"
+    },
+    "address": {
+      "street": "43 Ramses St",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11211"
+    },
+    "employment": {
+      "jobTitle": "Network Engineer",
+      "department": "IT Infrastructure",
+      "company": "NetSec",
+      "yearsOfExperience": 5,
+      "skills": ["Cisco", "Routing", "Switching", "Network Security"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "tarekmansour",
+      "role": "user",
+      "status": "inactive",
+      "createdAt": "2022-07-14T09:00:00Z",
+      "lastLogin": "2024-12-20T10:15:00Z"
+    },
+    "preferences": {
+      "language": "ar",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": false
+      }
+    },
+    "activity": {
+      "loginCount": 143,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2024-12-20T10:15:00Z"
+        },
+        {
+          "action": "CHECK_NETWORK",
+          "date": "2024-12-20T10:30:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2024-12-20T10:30:00Z",
+      "version": 3
+    }
+  },
+  {
+    "id": 14,
+    "personalInfo": {
+      "firstName": "Dina",
+      "lastName": "Fouad",
+      "gender": "female",
+      "dateOfBirth": "1994-11-19",
+      "age": 31,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "dina.fouad@example.com",
+      "phone": "+20-114-567-8901",
+      "alternatePhone": "+20-122-654-3210"
+    },
+    "address": {
+      "street": "56 Zahraa El Maadi",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11431"
+    },
+    "employment": {
+      "jobTitle": "Content Writer",
+      "department": "Content",
+      "company": "MediaWrite",
+      "yearsOfExperience": 6,
+      "skills": ["Copywriting", "SEO Writing", "Blogging", "Content Strategy"],
+      "employmentType": "Freelance"
+    },
+    "account": {
+      "username": "dinafouad",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2022-10-05T14:00:00Z",
+      "lastLogin": "2025-01-11T09:45:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 167,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-11T09:45:00Z"
+        },
+        {
+          "action": "PUBLISH_ARTICLE",
+          "date": "2025-01-11T10:30:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "admin",
+      "updatedAt": "2025-01-11T10:30:00Z",
+      "version": 4
+    }
+  },
+  {
+    "id": 15,
+    "personalInfo": {
+      "firstName": "Amir",
+      "lastName": "Gamal",
+      "gender": "male",
+      "dateOfBirth": "1992-01-15",
+      "age": 33,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "amir.gamal@example.com",
+      "phone": "+20-115-678-9012",
+      "alternatePhone": "+20-123-543-2109"
+    },
+    "address": {
+      "street": "99 Corniche El Nil",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11221"
+    },
+    "employment": {
+      "jobTitle": "Mobile Developer",
+      "department": "Mobile",
+      "company": "AppFactory",
+      "yearsOfExperience": 8,
+      "skills": ["Flutter", "React Native", "iOS", "Android"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "amirgamal",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2021-12-01T16:20:00Z",
+      "lastLogin": "2025-01-10T19:00:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": false,
+        "sms": true,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 234,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-10T19:00:00Z"
+        },
+        {
+          "action": "PUSH_BUILD",
+          "date": "2025-01-10T19:45:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-10T19:45:00Z",
+      "version": 5
+    }
+  },
+  {
+    "id": 16,
+    "personalInfo": {
+      "firstName": "Yasmin",
+      "lastName": "Adel",
+      "gender": "female",
+      "dateOfBirth": "1997-03-07",
+      "age": 28,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "yasmin.adel@example.com",
+      "phone": "+20-116-789-0123",
+      "alternatePhone": "+20-124-432-1098"
+    },
+    "address": {
+      "street": "71 Garden City",
+      "city": "Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11511"
+    },
+    "employment": {
+      "jobTitle": "Business Analyst",
+      "department": "Business",
+      "company": "ConsultPro",
+      "yearsOfExperience": 5,
+      "skills": ["Business Process Modeling", "SQL", "Requirements Analysis", "JIRA"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "yasminadel",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2022-11-18T10:30:00Z",
+      "lastLogin": "2025-01-09T12:10:00Z"
+    },
+    "preferences": {
+      "language": "ar",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": false
+      }
+    },
+    "activity": {
+      "loginCount": 156,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-09T12:10:00Z"
+        },
+        {
+          "action": "CREATE_REQUIREMENT",
+          "date": "2025-01-09T13:00:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "admin",
+      "updatedAt": "2025-01-09T13:00:00Z",
+      "version": 3
+    }
+  },
+  {
+    "id": 17,
+    "personalInfo": {
+      "firstName": "Rami",
+      "lastName": "Sherif",
+      "gender": "male",
+      "dateOfBirth": "1995-12-25",
+      "age": 30,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "rami.sherif@example.com",
+      "phone": "+20-117-890-1234",
+      "alternatePhone": "+20-125-321-0987"
+    },
+    "address": {
+      "street": "30 New Cairo St",
+      "city": "New Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11835"
+    },
+    "employment": {
+      "jobTitle": "Cybersecurity Analyst",
+      "department": "Security",
+      "company": "SecureNet",
+      "yearsOfExperience": 6,
+      "skills": ["Penetration Testing", "Incident Response", "SIEM", "Threat Analysis"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "ramisherif",
+      "role": "moderator",
+      "status": "active",
+      "createdAt": "2022-04-12T08:00:00Z",
+      "lastLogin": "2025-01-11T06:30:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 198,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-11T06:30:00Z"
+        },
+        {
+          "action": "RUN_SECURITY_SCAN",
+          "date": "2025-01-11T07:00:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-11T07:00:00Z",
+      "version": 4
+    }
+  },
+  {
+    "id": 18,
+    "personalInfo": {
+      "firstName": "Rana",
+      "lastName": "Tamer",
+      "gender": "female",
+      "dateOfBirth": "1993-07-11",
+      "age": 32,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "rana.tamer@example.com",
+      "phone": "+20-118-901-2345",
+      "alternatePhone": "+20-126-210-9876"
+    },
+    "address": {
+      "street": "50 Fifth Settlement",
+      "city": "New Cairo",
+      "state": "Cairo",
+      "country": "Egypt",
+      "postalCode": "11835"
+    },
+    "employment": {
+      "jobTitle": "Financial Analyst",
+      "department": "Finance",
+      "company": "FinanceHub",
+      "yearsOfExperience": 9,
+      "skills": ["Financial Modeling", "Excel", "SAP", "Budget Planning"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "ranatamer",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2021-08-25T13:15:00Z",
+      "lastLogin": "2025-01-10T16:20:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 312,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-10T16:20:00Z"
+        },
+        {
+          "action": "GENERATE_REPORT",
+          "date": "2025-01-10T17:00:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "admin",
+      "updatedAt": "2025-01-10T17:00:00Z",
+      "version": 6
+    }
+  },
+  {
+    "id": 19,
+    "personalInfo": {
+      "firstName": "Ziad",
+      "lastName": "Essam",
+      "gender": "male",
+      "dateOfBirth": "1999-09-02",
+      "age": 26,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "ziad.essam@example.com",
+      "phone": "+20-119-012-3456",
+      "alternatePhone": "+20-127-109-8765"
+    },
+    "address": {
+      "street": "18 Port Said St",
+      "city": "Alexandria",
+      "state": "Alexandria",
+      "country": "Egypt",
+      "postalCode": "21500"
+    },
+    "employment": {
+      "jobTitle": "Quality Assurance Engineer",
+      "department": "QA",
+      "company": "TestPro",
+      "yearsOfExperience": 3,
+      "skills": ["Selenium", "Manual Testing", "Automation", "JIRA"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "ziadessam",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2023-02-10T11:00:00Z",
+      "lastLogin": "2025-01-08T14:25:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": false,
+        "sms": false,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 92,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-08T14:25:00Z"
+        },
+        {
+          "action": "RUN_TEST_SUITE",
+          "date": "2025-01-08T15:00:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-08T15:00:00Z",
+      "version": 2
+    }
+  },
+  {
+    "id": 20,
+    "personalInfo": {
+      "firstName": "Lina",
+      "lastName": "Hossam",
+      "gender": "female",
+      "dateOfBirth": "1996-06-13",
+      "age": 29,
+      "nationality": "Egyptian"
+    },
+    "contactInfo": {
+      "email": "lina.hossam@example.com",
+      "phone": "+20-120-123-4567",
+      "alternatePhone": "+20-128-098-7654"
+    },
+    "address": {
+      "street": "84 Smouha St",
+      "city": "Alexandria",
+      "state": "Alexandria",
+      "country": "Egypt",
+      "postalCode": "21500"
+    },
+    "employment": {
+      "jobTitle": "Data Scientist",
+      "department": "Data Science",
+      "company": "AI Labs",
+      "yearsOfExperience": 5,
+      "skills": ["Python", "Machine Learning", "TensorFlow", "Data Visualization"],
+      "employmentType": "Full-time"
+    },
+    "account": {
+      "username": "linahossam",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2022-05-30T09:30:00Z",
+      "lastLogin": "2025-01-11T11:15:00Z"
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Cairo",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "activity": {
+      "loginCount": 221,
+      "lastActions": [
+        {
+          "action": "LOGIN",
+          "date": "2025-01-11T11:15:00Z"
+        },
+        {
+          "action": "TRAIN_MODEL",
+          "date": "2025-01-11T11:30:00Z"
+        }
+      ]
+    },
+    "metadata": {
+      "createdBy": "system",
+      "updatedAt": "2025-01-11T11:30:00Z",
+      "version": 5
+    }
+  }
+]
