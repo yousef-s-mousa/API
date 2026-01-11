@@ -9,25 +9,25 @@ const {
   getDetailedUserByIdSOAP
 } = require('../controllers/userController');
 
-// Basic Users Routes
-// GET /api/users - Get all basic users
-router.get('/users', getAllBasicUsers);
-
-// GET /api/users/:id - Get a single basic user by ID
-router.get('/users/:id', getBasicUserById);
-
-// Detailed Users Routes (SOAP format)
+// Detailed Users Routes (SOAP format) - Must come before /users/:id
 // GET /api/users/details/soap - Get all detailed users in SOAP format
 router.get('/users/details/soap', getAllDetailedUsersSOAP);
 
 // GET /api/users/details/soap/:id - Get a single detailed user by ID in SOAP format
 router.get('/users/details/soap/:id', getDetailedUserByIdSOAP);
 
-// Detailed Users Routes (JSON format)
+// Detailed Users Routes (JSON format) - Must come before /users/:id
 // GET /api/users/details - Get all detailed users
 router.get('/users/details', getAllDetailedUsers);
 
 // GET /api/users/details/:id - Get a single detailed user by ID
 router.get('/users/details/:id', getDetailedUserById);
+
+// Basic Users Routes
+// GET /api/users - Get all basic users
+router.get('/users', getAllBasicUsers);
+
+// GET /api/users/:id - Get a single basic user by ID
+router.get('/users/:id', getBasicUserById);
 
 module.exports = router;
