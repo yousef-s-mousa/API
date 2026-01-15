@@ -301,11 +301,11 @@ const generateRandomNumbers = (req, res) => {
       idNumber,
       passport,
       dateOfBirth,
-      idExpairyDate,
+      idExpiryDate,
       fullNameEnglish,
       fullNameArabic,
-      adress,
-      martialStatus,
+      address,
+      maritalStatus,
       currency
     } = req.body;
 
@@ -314,11 +314,11 @@ const generateRandomNumbers = (req, res) => {
       branchCode,
       idType,
       dateOfBirth,
-      idExpairyDate,
+      idExpiryDate,
       fullNameEnglish,
       fullNameArabic,
-      adress,
-      martialStatus,
+      address,
+      maritalStatus,
       currency
     };
 
