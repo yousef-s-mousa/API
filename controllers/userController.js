@@ -344,25 +344,10 @@ const generateRandomNumbers = (req, res) => {
     }
 
     // Generate 1 random number (0-999999)
-    const randomNumber = Math.floor(Math.random() * 1000000);
+    const Sif = Math.floor(Math.random() * 1000000);
 
     res.status(200).json({
-      success: true,
-      data: {
-        randomNumber,
-        receivedData: {
-          branchCode,
-          idType,
-          idNumber: idNumber || passport,
-          dateOfBirth,
-          idExpairyDate,
-          fullNameEnglish,
-          fullNameArabic,
-          adress,
-          martialStatus,
-          currency
-        }
-      }
+        Sif
     });
   } catch (error) {
     res.status(500).json({
