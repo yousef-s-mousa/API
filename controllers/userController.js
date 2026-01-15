@@ -343,15 +343,13 @@ const generateRandomNumbers = (req, res) => {
       });
     }
 
-    // Generate 6 random numbers (0-999999)
-    const randomNumbers = Array.from({ length: 6 }, () => 
-      Math.floor(Math.random() * 1000000)
-    );
+    // Generate 1 random number (0-999999)
+    const randomNumber = Math.floor(Math.random() * 1000000);
 
     res.status(200).json({
       success: true,
       data: {
-        randomNumbers,
+        randomNumber,
         receivedData: {
           branchCode,
           idType,
