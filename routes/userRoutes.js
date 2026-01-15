@@ -6,7 +6,8 @@ const {
   getAllDetailedUsers,
   getDetailedUserById,
   getAllDetailedUsersSOAP,
-  getDetailedUserByIdSOAP
+  getDetailedUserByIdSOAP,
+  generateRandomNumbers
 } = require('../controllers/userController');
 
 // Detailed Users Routes (SOAP format) - Must come before /users/:id
@@ -29,5 +30,8 @@ router.get('/users', getAllBasicUsers);
 
 // GET /api/users/:id - Get a single basic user by ID
 router.get('/users/:id', getBasicUserById);
+
+// POST /api/generate-random - Generate 6 random numbers
+router.post('/generate-random', generateRandomNumbers);
 
 module.exports = router;

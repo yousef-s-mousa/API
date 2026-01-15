@@ -289,11 +289,98 @@ const getDetailedUserByIdSOAP = (req, res) => {
   }
 };
 
+/**
+ * Generate random numbers based on user data
+ * POST /api/generate-random
+ */
+const generateRandomNumbers = (req, res) => {
+  try {
+    const {
+      branchCode,
+      idType,
+      idNumber,
+      passport,
+      dateOfBirth,
+      idExpairyDate,
+      fullNameEnglish,
+      fullNameArabic,
+      adress,
+      martialStatus,
+      currency
+    } = req.body;
+
+    // Validate required fields
+    const requiredFields = {
+      branchCode,
+      idType,
+      dateOfBirth,
+      idExpairyDate,
+      fullNameEnglish,
+      fullNameArabic,
+      adress,
+      martialStatus,
+      currency
+    };
+
+    // Check if idNumber or passport is provided
+    if (!idNumber && !passport) {
+      return res.status(400).json({
+        success: false,
+        error: 'Either idNumber or passport is required'
+      });
+    }
+
+    // Check for missing required fields
+    const missingFields = Object.entries(requiredFields)
+      .filter(([key, value]) => !value)
+      .map(([key]) => key);
+
+    if (missingFields.length > 0) {
+      return res.status(400).json({
+        success: false,
+        error: 'Missing required fields',
+        missingFields
+      });
+    }
+
+    // Generate 6 random numbers (0-999999)
+    const randomNumbers = Array.from({ length: 6 }, () => 
+      Math.floor(Math.random() * 1000000)
+    );
+
+    res.status(200).json({
+      success: true,
+      data: {
+        randomNumbers,
+        receivedData: {
+          branchCode,
+          idType,
+          idNumber: idNumber || passport,
+          dateOfBirth,
+          idExpairyDate,
+          fullNameEnglish,
+          fullNameArabic,
+          adress,
+          martialStatus,
+          currency
+        }
+      }
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: 'Failed to generate random numbers',
+      message: error.message
+    });
+  }
+};
+
 module.exports = {
   getAllBasicUsers,
   getBasicUserById,
   getAllDetailedUsers,
   getDetailedUserById,
   getAllDetailedUsersSOAP,
-  getDetailedUserByIdSOAP
+  getDetailedUserByIdSOAP,
+  generateRandomNumbers
 };

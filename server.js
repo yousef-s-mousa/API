@@ -33,7 +33,8 @@ app.get('/', (req, res) => {
       detailedUsersSOAP: {
         getAll: 'GET /api/users/details/soap',
         getById: 'GET /api/users/details/soap/:id'
-      }
+      },
+      generateRandom: 'POST /api/generate-random'
     }
   });
 });
