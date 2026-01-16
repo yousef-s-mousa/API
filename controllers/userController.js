@@ -344,7 +344,9 @@ const generateRandomNumbers = (req, res) => {
     }
 
     // Generate 1 random number (0-999999)
-    const Sif = Math.floor(Math.random() * 1000000);
+    // const Sif = Math.floor(Math.random() * 1000000);
+    const Sif = Math.floor(Math.random() * 1000000).toString();
+
 
     res.status(200).json({
         Sif
